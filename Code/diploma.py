@@ -198,5 +198,4 @@ recommender = RecipeRecommender(nutritional_df, cols_to_divide)
 # Find the closest recipes for a given input recipe
 input_recipe_id = 41.0 # enter the input recipe number here
 result = recommender.find_closest_recipes(input_recipe_id)
-print("Closest recipes for RecipeId", input_recipe_id, "from the original nutritional_df:")
-result
+print("Closest recipes for RecipeId", input_recipe_id, "from the original nutritional_df:\n", result)
